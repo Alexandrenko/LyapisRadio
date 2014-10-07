@@ -1,0 +1,63 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageButton
+            android:id="@+id/imageYoutube"
+            android:layout_alignParentTop = "true"
+            android:layout_alignParentLeft = "true"
+             android:contentDescription="@string/yout"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/youtube" />
+
+        <ImageButton
+            android:id="@+id/imageFacebook"
+            android:layout_alignParentTop = "true"
+             android:contentDescription="@string/fb"
+            android:layout_alignParentRight="true"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/facebook" />
+
+        <ImageButton
+            android:id="@+id/imageTwitter"
+            android:layout_toLeftOf="@id/imageFacebook"
+            android:contentDescription="@string/tw"
+            android:layout_marginRight="40dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/twitter" />
+
+        <ImageButton
+            android:id="@+id/imageVk"
+            android:layout_toRightOf="@id/imageYoutube"
+            android:contentDescription="@string/yout"
+            android:layout_marginLeft="40dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/vk" />
+    </RelativeLayout>
+
+   <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/button_play"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|left"
+            android:text="@string/play" />
+
+        
+       
+    </FrameLayout>
+
+</TableLayout>

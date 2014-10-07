@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LyapisRadio</string>
+    <string name="lyapis_description">Ляпис Трубецкой</string>
+    <string name="play">Play</string>
+    <string name="stop">Stop</string>
+    <string name="yout">YouTube</string>
+    <string name="vk">Vkontakte</string>
+    <string name="fb">Facebook</string>
+    <string name="tw">Twitter</string>
+    
+</resources>
